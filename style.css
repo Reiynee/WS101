@@ -360,20 +360,14 @@ site-title h1 span {
 
 .purpose {
   margin-top: 50px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
+  padding: 20px; /* Uniform padding */
   background-color: #adc178;
   display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
 }
 
 .purposeinfo {
   padding: 20px;
-  padding-bottom: 20px;
-  display: block;
-  float: left;
-  width: 500px;
   background-color: #6c584c;
   border-radius: 25px;
   margin-right: 50px;
@@ -381,7 +375,6 @@ site-title h1 span {
 
 .purposeinfo p {
   padding: 30px;
-  padding-bottom: 127px;
   background-color: #f0ead2;
   color: black;
   border-radius: 25px;
@@ -390,15 +383,10 @@ site-title h1 span {
 }
 
 .purposeinfo1 {
-  position: absolute;
-  margin-left: 550px;
-  margin-right: 70px;
   padding: 20px;
-  padding-bottom: 20px;
-  float: right;
   background-color: #6c584c;
   border-radius: 25px;
-
+  margin-left: 50px;
 }
 
 .purposeinfo1 p {
@@ -421,4 +409,57 @@ site-title h1 span {
 .goal {
   padding: 50%;
   background-color: #477ca7;
+}
+
+/* FAQ NA ITOOO */
+.FAQ {
+  padding: 40px 20px; /* Padding for spacing */
+  background-color: #f0ead2; /* Background color for the section */
+  border-radius: 15px; /* Rounded corners */
+  max-width: 800px; /* Maximum width for better readability */
+  margin: 20px auto; /* Centering the section */
+}
+
+h2 {
+  text-align: center; /* Center the section headings */
+  font-size: 3rem; /* Font size for headings */
+}
+
+.faqQ {
+  margin: 15px 0; /* Space between FAQ items */
+  padding: 10px; /* Padding around the question-answer block */
+  border: 1px solid #adc178; 
+  border-radius: 15px; 
+  background-color: #ffffff; 
+}
+
+h3 {
+  font-size: 2rem; 
+  margin-bottom: 10px; 
+}
+
+p {
+  font-size: 1.6rem; /* Font size for answers */
+  line-height: 1.5; /* Line height for readability */
+}
+
+/* About Us Section */
+.aboutUs {
+  padding: 40px 20px; /* Padding for spacing */
+  background-color: #6c584c; /* Darker background for contrast */
+  color: white; /* Text color for readability */
+  border-radius: 15px; /* Rounded corners */
+  max-width: 800px; /* Maximum width for better readability */
+  margin: 0 auto; /* Centering the section */
+}
+
+.aboutUsTitle {
+  font-size: 3rem; /* Title size */
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.aboutUsContent {
+  line-height: 1.6; /* Line height for readability */
+  margin-top: 20px; /* Space above content */
 }
