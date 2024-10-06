@@ -361,8 +361,10 @@ site-title h1 span {
 .purpose {
   margin-top: 50px;
   padding: 20px; /* Uniform padding */
+  padding: 20px; /* Uniform padding */
   background-color: #adc178;
   display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
   flex-wrap: wrap; /* Allow wrapping */
 }
 
@@ -386,6 +388,7 @@ site-title h1 span {
   padding: 20px;
   background-color: #6c584c;
   border-radius: 25px;
+  margin-left: 50px;
   margin-left: 50px;
 }
 
